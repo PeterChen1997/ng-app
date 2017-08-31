@@ -24,4 +24,17 @@ router.get('/videos',function(req,res){
     });
 });
 
+router.get('/videos/:id',function(req,res){
+    console.log('Get request for single video   ');
+    Video.findById(req.params.id)
+    .exec(function(err,video){
+        if(err){
+            console.log("Error retreving single video");
+        }else {
+            res.json(video);
+            console.log("Done!");
+        }
+    });
+});
+
 module.exports = router;
