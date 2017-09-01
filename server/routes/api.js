@@ -11,6 +11,7 @@ mongoose.connect(db,{useMongoClient:true},function(err){
     }
 });
 
+//Get Videos
 router.get('/videos',function(req,res){
     console.log('Get request for all videos');
     Video.find({})
@@ -24,6 +25,7 @@ router.get('/videos',function(req,res){
     });
 });
 
+//Get single video
 router.get('/videos/:id',function(req,res){
     console.log('Get request for single video   ');
     Video.findById(req.params.id)
@@ -36,5 +38,24 @@ router.get('/videos/:id',function(req,res){
         }
     });
 });
+
+//Save video
+//req and res's position can not be changed!!!
+router.post('/video',function(req,res){
+    console.log("Post a video");
+    console.log(req.body);
+    var newVideo = new Video();
+    newVideo.title = req.body.title;
+    newVideo.url = req.body.url;
+    newVideo.description = req.body.description;
+    newVideo.save(function (err,insertedVideo) {
+        if(err){
+            console.log("Error in saving video");
+        }else {
+            res.json(insertedVideo);
+        }
+    });
+});
+
 
 module.exports = router;

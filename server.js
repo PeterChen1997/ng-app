@@ -10,7 +10,13 @@ const app = express();
 
 app.use(express.static(path.join(__dirname,'dist')));
 
-app.use(bodyParser.urlencoded({extended:true}));
+
+// parse application/x-www-form-urlencoded
+app.use(bodyParser.urlencoded({ extended: true }));
+// parse application/json
+app.use(bodyParser.json());
+
+
 app.use('/api',api);
 
 app.get('*',(req,res) => {
