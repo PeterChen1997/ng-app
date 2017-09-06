@@ -1,1 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+html {
+    height: 100%;
+}
+body {
+    height:100%;
+    font-family: Lantinghei SC,Microsoft Yahei,Hiragino Sans GB,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 13px;
+    line-height: 1.5;
+}

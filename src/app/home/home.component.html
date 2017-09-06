@@ -1,3 +1,25 @@
-<div class="jumbotron">
-    <h1>{{title}}</h1>
+<div class="cover">
+  <div class="menu">
+    <button id="wechat"></button>
+    <a target="_blank">
+            <button id="weibo"></button>
+        </a>
+    <a target="_blank">
+            <button id="email"></button>
+        </a>
+  </div>
+  <div class="content">
+    <div class="logo"></div>
+    <div class="intro"></div>
+    <div class="enter">
+      <a routerLink="/videos" routerLinkActive="active"><button id="enter-btn"></button><p>进入列表</p></a>
+    </div>
+  </div>
+
+  <div class="curtain"></div>
+
+  <div class="video-container">
+    <video autoplay loop poster="//static.kaiyanapp.com/eyepetizer-web/assets/images/index/home_poster.43ddf261.jpg" src="//static.kaiyanapp.com/eyepetizer-web/homepage.mp4"></video>
+  </div>
+
 </div>
