@@ -1,3 +1,31 @@
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">VideoPlayer</a>
+    </div>
+    <ul class="nav navbar-nav">
+    <li><a routerLink="/home" routerLinkActive="active">Home</a></li>
+    <li><a routerLink="/videos" routerLinkActive="active">Playlist</a></li>            
+    </ul>
+  </div>
+</nav>   
+
+
+<div class="ad" id="picBox">
+	<div class="loading"><img src="../../assets/img/loading.gif" alt="图片加载中" /></div>
+		<div class="pic"><!--焦点图必须在ul前再加一个div-->
+			<ul>
+				<li><img src="../../assets/img/taylor.jpg" /></li>
+				<li><img src="../../assets/img/DNA.png" /></li>
+				<li><img src="../../assets/img/AT.png" /></li>
+			</ul>
+		</div>
+	</div><!--ad结束-->
+
+<hr>
+
+<div class="container">
 <div class="row">
   <div class="col-sm-9">
     <div *ngIf="!hidenewVideo">
@@ -23,6 +51,12 @@
   </div>
   <div class="col-sm-3">
     <button (click)="newVideo()" type="button" style="margin-bottom:2px;" class="btn btn-success btn-block">+ Add New VIdeo</button>
+
+    <!--add a waiting sign-->
+    
     <video-list (SelectVideo)="onSelectVideo($event)" [videos]="videos"></video-list>
   </div>
 </div>
+
+</div>
+
