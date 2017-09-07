@@ -1,6 +1,6 @@
 
 <nav class="navbar navbar-inverse">
-  <div class="container-fluid">
+  <div class="container">
     <div class="navbar-header">
       <a class="navbar-brand" href="#">VideoPlayer</a>
     </div>
@@ -15,22 +15,22 @@
   <slide>
     <img src="../../assets/img/taylor.jpg" alt="First slide">
     <div class="carousel-caption">
-      <h3>First slide label </h3>
-      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+      <h2>Reputation</h2>
+      <p>Pre-order Taylor Swift's new album quickly!</p>
     </div>
   </slide>
   <slide>
     <img src="../../assets/img/DNA.png" alt="Second slide">
     <div class="carousel-caption">
-      <h3>Second slide label</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <h2>The life cycle of a t-shirt</h2>
+      <p>Lesson by Angel Chang, animation by TED-Ed.</p>
     </div>
   </slide>
   <slide>
     <img src="../../assets/img/AT.png" alt="Third slide">
     <div class="carousel-caption">
-      <h3>Third slide label</h3>
-      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+      <h2>America's Got Talent 2017</h2>
+      <p>Preacher Lawson is back! </p>
     </div>
   </slide>
 </carousel>
@@ -70,6 +70,7 @@
     </div>
     <video-detail (updateVideoEvent)="onUpdateVideoEvent($event)" 
     (deleteVideoEvent)="onDeleteVideoEvent($event)" *ngIf="selectedVideo && hidenewVideo" [video]="selectedVideo"></video-detail>
+
   </div>
   <div class="col-sm-3">
     <button (click)="newVideo()" type="button" style="margin-bottom:2px;" class="btn btn-success btn-block">+ Add New VIdeo</button>
@@ -82,3 +83,5 @@
 
 </div>
 
+<hr>
+<hr>

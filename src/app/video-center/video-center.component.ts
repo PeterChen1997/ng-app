@@ -13,7 +13,9 @@ export class VideoCenterComponent implements OnInit {
 
   videos: Array<Video>;
 
-  selectedVideo:Video[];
+  selectedVideo:Video;
+  
+  //video[] => video
   private hidenewVideo:boolean = true;
 
   constructor(private _videoService: VideoService) { }
@@ -21,7 +23,10 @@ export class VideoCenterComponent implements OnInit {
   ngOnInit() {
     this._videoService.getVideos()
     .subscribe(resVideoData => this.videos = resVideoData);
+
   }
+
+
 
   onSelectVideo(video:any){
     this.selectedVideo = video;
