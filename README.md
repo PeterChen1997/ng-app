@@ -29,9 +29,9 @@ Edit
 
 ## Screenshots
 Video Center
-![image](https://github.com/ng-app/center.jpg)
+![image](https://github.com/ng-app/center.png)
 Video Detail
-![image](https://github.com/ng-app/detail.jpg)
+![image](https://github.com/ng-app/detail.png)
 
 ## Further help
 
