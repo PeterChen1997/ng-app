@@ -29,9 +29,9 @@ Edit
 
 ## Screenshots
 Video Center
-![这里写图片描述](http://img.blog.csdn.net/20170909093348770?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvd2VpeGluXzMxMzQ3ODMx/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+![Video Center](http://img.blog.csdn.net/20170909093348770?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvd2VpeGluXzMxMzQ3ODMx/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 Video Detail
-![这里写图片描述](http://img.blog.csdn.net/20170909093405715?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvd2VpeGluXzMxMzQ3ODMx/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+![Video Detail](http://img.blog.csdn.net/20170909093405715?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvd2VpeGluXzMxMzQ3ODMx/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
 ## Further help
 
