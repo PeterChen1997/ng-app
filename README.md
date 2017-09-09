@@ -29,9 +29,9 @@ Edit
 
 ## Screenshots
 Video Center
-![Video Center](http://img.blog.csdn.net/20170909093348770?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvd2VpeGluXzMxMzQ3ODMx/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+![image](https://github.com/ng-app/center.jpg)
 Video Detail
-![Video Detail](http://img.blog.csdn.net/20170909093405715?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvd2VpeGluXzMxMzQ3ODMx/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+![image](https://github.com/ng-app/detail.jpg)
 
 ## Further help
 
