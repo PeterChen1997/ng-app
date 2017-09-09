@@ -37,6 +37,6 @@ Video Detail
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
-To get more help on the Express:[](http://www.expressjs.com.cn/)
+To get more help on the Express: [Express](http://www.expressjs.com.cn/)
 
-To get more help on the MEAN Stack: [](https://www.youtube.com/channel/UC80PWRj_ZU8Zu0HSMNVwKWw)
+To get more help on the MEAN Stack: [YouTube](https://www.youtube.com/channel/UC80PWRj_ZU8Zu0HSMNVwKWw)
