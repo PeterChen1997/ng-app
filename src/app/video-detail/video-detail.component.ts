@@ -11,12 +11,12 @@ export class VideoDetailComponent implements OnInit {
 
   video: any;
 
-  private editTitle: boolean = false;
-  private editUrl: boolean = false;
-  private editDesc: boolean = false;
+  public editTitle: boolean = false;
+  public editUrl: boolean = false;
+  public editDesc: boolean = false;
 
-  private updateVideoEvent = new EventEmitter();
-  private deleteVideoEvent = new EventEmitter();
+  public updateVideoEvent = new EventEmitter();
+  public deleteVideoEvent = new EventEmitter();
   constructor() { }
 
   ngOnInit() {

@@ -16,9 +16,9 @@ export class VideoCenterComponent implements OnInit {
   selectedVideo:Video;
   
   //video[] => video
-  private hidenewVideo:boolean = true;
+  public hidenewVideo:boolean = true;
 
-  constructor(private _videoService: VideoService) { }
+  constructor(public _videoService: VideoService) { }
 
   ngOnInit() {
     this._videoService.getVideos()

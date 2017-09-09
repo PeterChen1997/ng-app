@@ -10,7 +10,7 @@ import { Component, OnInit, EventEmitter } from '@angular/core';
 })
 export class VideoListComponent implements OnInit {
   public SelectVideo = new EventEmitter();
-
+  videos:Video[];
   constructor() { }
 
   ngOnInit() {
