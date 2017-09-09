@@ -1,6 +1,6 @@
 # VideoCenter
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.3.1 + mongod version 3.4.7 (MMAPv1) + Express + Node version 8.3.0.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.3.1 + mongod version 3.4.7 (MMAPv1) + Express + Node version 8.3.0 + ngx-bootstrap.
 [![Travis branch](https://img.shields.io/travis/rust-lang/rust/master.svg)]()  [![npm](https://img.shields.io/npm/v/npm.svg)]()  [![MyGet](https://img.shields.io/myget/mongodb/v/MongoDB.Driver.Core.svg)]() [![npm](https://img.shields.io/npm/l/express.svg)]()
 
 ##Feature
