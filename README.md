@@ -18,14 +18,14 @@ Clone from github.com:
 > https://github.com/PeterChen1997/ng-app.git
 
 ## Quick Start
-> npm install
+> npm install  
 > node server.js
 
 ## Edit
-> npm install -g @angular/cli
-> ng generate ...
-> ng build
-> node server.js
+> npm install -g @angular/cli  
+> ng generate ...  
+> ng build  
+> node server.js  
 
 ## Screenshots
 Video Center
